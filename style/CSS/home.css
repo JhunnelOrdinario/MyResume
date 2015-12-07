@@ -1,0 +1,97 @@
+body 
+{
+ background-image: url("../Images/bg.jpg");
+ background-repeat: repeat-x;
+	
+}
+
+
+/*#############################################################################
+###############################################################################
+#######################          LAYOUT DESIGN        #########################
+###############################################################################
+#############################################################################*/
+.layout
+{
+    background-image: url('../images/layout_bg.gif');
+    display: block;
+    position: absolute;
+    width: 1200px;
+    min-height: 600px;
+    top: 90px;
+    left: 0px;
+    right: 0px;
+/*    bottom: 0px;*/
+    margin: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    -webkit-box-shadow:0 20px 30px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 20px 30px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 20px 30px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.layout:before, .layout:after
+{
+    content:"";
+    position:relative; 
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:10px 10px 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+} 
+.layout:after
+{
+	right:10px; 
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg); 
+       -moz-transform:skew(8deg) rotate(3deg);     
+        -ms-transform:skew(8deg) rotate(3deg);     
+         -o-transform:skew(8deg) rotate(3deg); 
+            transform:skew(8deg) rotate(3deg);
+}
+/*##############################################################################################################################
+##############################################################################################################################*/
+
+
+/*#############################################################################
+###############################################################################
+#######################          WORK AREA DESIGN        ######################
+###############################################################################
+#############################################################################*/
+.work_area{
+    background: red;
+    width: 1000px;
+    display: block;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: relative;
+}
+.page-shadow {
+	background: #FFFFFF;
+	background: -moz-linear-gradient(0deg, #F5F5F5 0%, #FFF 25%, #FFF 75%, #F5F5F5 100%);
+	background: -ms-linear-gradient(0deg, #F5F5F5 0%, #FFF 25%, #FFF 75%, #F5F5F5 100%);
+	background: -webkit-linear-gradient(0deg, #F5F5F5 0%, #FFF 25%, #FFF 75%, #F5F5F5 100%);
+	background: linear-gradient(0deg, #F5F5F5 0%, #FFF 25%, #FFF 75%, #F5F5F5 100%);
+	border: 1px solid #777777;
+	-moz-border-radius: 6px 6px 6px 6px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+	border-radius: 6px 6px 6px 6px;
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/*##############################################################################################################################
+##############################################################################################################################*/
